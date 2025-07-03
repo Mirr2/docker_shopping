@@ -1,0 +1,29 @@
+{
+  "name": "hacker-goods-mall",
+  "version": "1.0.0",
+  "description": "해커 굿즈 쇼핑몰 - 보안 교육용 사이트",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "cd frontend && npm run build",
+    "install-all": "npm install && cd frontend && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.6",
+    "cookie-parser": "^1.4.6",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": ["hacker", "goods", "shopping", "security", "education"],
+  "author": "Security Education Team",
+  "license": "MIT"
+}

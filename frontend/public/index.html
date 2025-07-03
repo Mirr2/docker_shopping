@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="해커 굿즈 쇼핑몰 - 보안 교육용 사이트" />
+    <title>해커 굿즈 쇼핑몰</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Noto Sans KR', sans-serif;
+        background: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 100%);
+        color: #ffffff;
+        min-height: 100vh;
+      }
+      
+      .matrix-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 
+          radial-gradient(ellipse at center, rgba(0,255,0,0.1) 0%, transparent 70%),
+          linear-gradient(90deg, transparent 0%, rgba(0,255,0,0.03) 50%, transparent 100%);
+        animation: matrix-flicker 3s infinite;
+        z-index: -1;
+      }
+      
+      @keyframes matrix-flicker {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.1; }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>이 사이트를 이용하려면 JavaScript를 활성화해야 합니다.</noscript>
+    <div id="root"></div>
+    <div class="matrix-bg"></div>
+  </body>
+</html>

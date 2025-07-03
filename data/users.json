@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "admin123",
+    "email": "admin@hackershop.com",
+    "role": "admin",
+    "created_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "username": "hacker1",
+    "password": "password123",
+    "email": "hacker1@example.com",
+    "role": "user",
+    "created_at": "2024-01-15T10:30:00.000Z"
+  },
+  {
+    "id": 3,
+    "username": "testuser",
+    "password": "test123",
+    "email": "test@example.com",
+    "role": "user",
+    "created_at": "2024-02-01T14:20:00.000Z"
+  }
+]

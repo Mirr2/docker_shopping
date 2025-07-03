@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "해커 후드티",
+    "price": 65000,
+    "description": "Anonymous 로고가 새겨진 블랙 후드티",
+    "category": "의류",
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&h=500&fit=crop",
+    "stock": 25
+  },
+  {
+    "id": 2,
+    "name": "RGB 해킹 키보드",
+    "price": 120000,
+    "description": "기계식 RGB 백라이트 해킹 키보드",
+    "category": "전자제품",
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=500&h=500&fit=crop",
+    "stock": 15
+  },
+  {
+    "id": 3,
+    "name": "해커 스티커 세트",
+    "price": 12000,
+    "description": "다크웹 로고 스티커 10개 세트",
+    "category": "액세서리",
+    "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=500&h=500&fit=crop",
+    "stock": 100
+  },
+  {
+    "id": 4,
+    "name": "해킹 도구 USB",
+    "price": 85000,
+    "description": "펜테스팅 도구가 포함된 USB (교육용)",
+    "category": "전자제품",
+    "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500&h=500&fit=crop",
+    "stock": 8
+  },
+  {
+    "id": 5,
+    "name": "Anonymous 마스크",
+    "price": 28000,
+    "description": "Guy Fawkes 마스크 (고품질)",
+    "category": "액세서리",
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&h=500&fit=crop",
+    "stock": 50
+  },
+  {
+    "id": 6,
+    "name": "해커 머그컵",
+    "price": 18000,
+    "description": "\"I'm not a hacker\" 프린트 머그컵",
+    "category": "생활용품",
+    "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500&h=500&fit=crop",
+    "stock": 30
+  },
+  {
+    "id": 7,
+    "name": "라즈베리파이 키트",
+    "price": 95000,
+    "description": "해킹 실습용 라즈베리파이 4B 키트",
+    "category": "전자제품",
+    "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=500&h=500&fit=crop",
+    "stock": 12
+  },
+  {
+    "id": 8,
+    "name": "해커 티셔츠",
+    "price": 35000,
+    "description": "\"There is no place like 127.0.0.1\" 티셔츠",
+    "category": "의류",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop",
+    "stock": 40
+  },
+  {
+    "id": 9,
+    "name": "해킹 책자",
+    "price": 45000,
+    "description": "화이트햇 해킹 가이드북 (한국어판)",
+    "category": "도서",
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500&h=500&fit=crop",
+    "stock": 20
+  },
+  {
+    "id": 10,
+    "name": "LED 해킹 램프",
+    "price": 55000,
+    "description": "Matrix 스타일 LED 데스크 램프",
+    "category": "전자제품",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop",
+    "stock": 18
+  }
+]

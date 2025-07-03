@@ -1,0 +1,37 @@
+# 멀티 스테이지 빌드 - 프론트엔드 빌드 단계
+FROM node:18-alpine AS frontend-build
+
+WORKDIR /app/frontend
+
+# 프론트엔드 의존성 설치
+COPY frontend/package*.json ./
+RUN npm ci --only=production
+
+# 프론트엔드 소스 복사 및 빌드
+COPY frontend/ ./
+RUN npm run build
+
+# 백엔드 실행 단계
+FROM node:18-alpine AS backend
+
+WORKDIR /app
+
+# 백엔드 의존성 설치
+COPY package*.json ./
+RUN npm ci --only=production
+
+# 백엔드 소스 파일 복사
+COPY server.js ./
+COPY data/ ./data/
+
+# 프론트엔드 빌드 결과물 복사
+COPY --from=frontend-build /app/frontend/build ./frontend/build
+
+# 필요한 디렉토리 생성
+RUN mkdir -p /app/uploads
+
+# 포트 노출
+EXPOSE 5000
+
+# 시작 명령어
+CMD ["node", "server.js"]
