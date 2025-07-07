@@ -9,7 +9,6 @@ const HeaderContainer = styled.header`
   width: 100%;
   background: rgba(0, 0, 0, 0.9);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(0, 255, 0, 0.3);
   z-index: 1000;
   height: 80px;
 `;
@@ -46,31 +45,16 @@ const Nav = styled.nav`
 const NavLink = styled(Link)`
   color: #ffffff;
   font-weight: 500;
-  padding: 10px 20px;
-  border-radius: 25px;
+  padding: 8px 16px;
+  border-radius: 8px;
   transition: all 0.3s ease;
   position: relative;
-  
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(45deg, transparent, rgba(0, 255, 0, 0.2), transparent);
-    border-radius: 25px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  
+  white-space: nowrap; /* 줄바꿈 방지 */
+
   &:hover {
     color: #00ff00;
+    background-color: rgba(0, 255, 0, 0.1);
     transform: translateY(-2px);
-    
-    &::before {
-      opacity: 1;
-    }
   }
 `;
 
