@@ -11,6 +11,7 @@ import Cart from './pages/Cart';
 import Profile from './pages/Profile';
 import Admin from './pages/Admin';
 import VulnerabilityTest from './pages/VulnerabilityTest';
+import Footer from './components/Footer';
 
 const AppContainer = styled.div`
   min-height: 100vh;
@@ -188,6 +189,7 @@ function App() {
             <Route path="/vulnerability-test" element={<VulnerabilityTest />} />
           </Routes>
         </MainContent>
+        <Footer />
       </AppContainer>
     </Router>
   );

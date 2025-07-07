@@ -6,7 +6,7 @@
     "description": "Anonymous 로고가 새겨진 블랙 후드티",
     "category": "의류",
     "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&h=500&fit=crop",
-    "stock": 25
+    "stock": 0
   },
   {
     "id": 2,
@@ -87,6 +87,6 @@
     "description": "Matrix 스타일 LED 데스크 램프",
     "category": "전자제품",
     "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop",
-    "stock": 18
+    "stock": 0
   }
 ]
